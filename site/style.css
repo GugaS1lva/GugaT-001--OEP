@@ -3,6 +3,8 @@
     font-family: 'SNES';
     src: url(fontes/SNES\ Italic.ttf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&display=swap');
+/* font-family: 'Gorditas', cursive; */
 
 body{
     background-color: black;
@@ -24,7 +26,7 @@ header{
 body > main > header > h1{
     display: inline;
     background-color: #fff;
-    font-family: 'SNES';
+    font-family: 'Gorditas', cursive;
     font-weight: lighter;
 
     padding: 4px;
@@ -81,4 +83,14 @@ body > main > article > p{
 #cssIMG{
     max-width: 156px;
     min-width: 156px;
+}
+
+body > main > article > a > img{
+    max-width: 100px;
+    min-width: 100px;
+}
+#botão{
+    margin-top: 10px;
+    max-width: 100px;
+    min-width: 100px;
 }
